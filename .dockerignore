@@ -1,0 +1,9 @@
+nginx.conf
+node_modules
+docs
+bin
+.test_coverage.txt
+.envrc
+README.md
+LICENSE
+Makefile

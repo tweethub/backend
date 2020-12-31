@@ -1,0 +1,20 @@
+[Generator]
+DefaultTimeSpans = ["240h", "720h", "2160h", "4320h", "8640h", "43200h"]
+AllTimeStatistics = true
+Series = 20
+GeneratingInterval = "1m"
+
+[TweetsClient]
+Source = "tweethub.io:8080"
+APIVersion = "v1"
+
+[RESTServer]
+Host = "statistics"
+Port = "8080"
+
+[Database]
+Name = "statistics"
+User = "admin"
+Password = "devpass"
+Host = "mongo"
+Port = "27017"

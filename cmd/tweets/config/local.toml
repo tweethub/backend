@@ -1,0 +1,14 @@
+[Collector]
+CollectPastYearsTweets = true
+CollectingInterval = "60s"
+
+[RESTServer]
+Host = "tweets"
+Port = "8080"
+
+[Database]
+Name = "tweets"
+User = "admin"
+Password = "devpass"
+Host = "mongo"
+Port = "27017"
